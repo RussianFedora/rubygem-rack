@@ -7,7 +7,7 @@ Summary:        Common API for connecting web frameworks, web servers and layers
 # Introduce Epoch (related to bug 552972)
 Epoch:          1
 Version:        1.5.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Group:          Development/Languages
 License:        MIT
 URL:        http://%{gemname}.rubyforge.org/
