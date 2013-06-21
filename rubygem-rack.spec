@@ -5,9 +5,9 @@
 Name:           rubygem-%{gemname}
 Summary:        Common API for connecting web frameworks, web servers and layers of software
 # Introduce Epoch (related to bug 552972)
-Epoch:          1
-Version:        1.5.2
-Release:        2%{?dist}
+Epoch:          2
+Version:        1.4.5
+Release:        1%{?dist}
 Group:          Development/Languages
 License:        MIT
 URL:        http://%{gemname}.rubyforge.org/
@@ -97,7 +97,7 @@ popd
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
 %changelog
-* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gpm.int> - 1.5.2-1
+* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 1.4.5-1
 - Rebuilt for new version
 
 * Thu Mar 11 2010 Mamoru Tasaka <mtasaka@ioa.s.u-tokyo.ac.jp> - 1:1.1.0-2
